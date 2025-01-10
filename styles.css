@@ -11,3 +11,7 @@
 #frozen {
   color: hotpink;
 }
+
+#border {
+  border: 10px solid aqua;
+}
