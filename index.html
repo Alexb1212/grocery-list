@@ -1,37 +1,68 @@
 <html>
   <head>
     <title>Ultimate Grocery List</title>
+    <style>
+      body {
+        background-color: lightgrey;
+      }
+    </style>
+
+    <link rel="stylesheet" href="./styles.css">
 
   </head>
 
   <body>
-    <h1>Worlds Greatest Grocery List</h1>
+    <h1 id="title">Worlds Greatest Grocery List</h1>
+
     <section>
       <article>
         <title>Pantry Items</title>
-        <h2>Canned goods!</h2>
-        <ol>
+        <h2 class="topic">Canned goods!</h2>
+        <ol id="frozen">
           <li>sweet peas</li>
           <li>mixed fruit</li>
           <li>baked beans</li>
           <li>tomato sauce</li>
         </ol>
+
+        <img class="pictures" src="./canned-goods.png" alt="Canned goods">
+
       </article>
       <article>
-        <h2>Dry goods!</h2>
-        <ol>
+        <h2 class="topic">Dry goods!</h2>
+        <ol id="frozen">
           <li>baking soda</li>
           <li>corn starch</li>
           <li>rice</li>
           <li>baking powder</li>
         </ol>
+
+        <img class="pictures" src="./dry-goods.jpg" alt="dry goods">
+
       </article>
       <article>
         <title>Freezer Items</title>
-        <h2>Veggies!</h2>
-        <ol>
+        <h2 class="topic">Veggies!</h2>
+        <ol id="frozen"> 
           <li>Chopped Spinach</li>
+          <li>yellow corn</li>
+          <li>green peas</li>
+          <li>edamame</li>
+          <li>artichoke hearts</li>
         </ol>
+
+        <img class="pictures" src="./frozen-veggies.webp" alt="frozen veggies">
+
+      </article>
+      <article>
+          <h2 class="topic" style="color: maroon;">Frozen Treats!</h2>
+          <ol id="frozen">
+            <li>talenti gelato</li>
+            <li>tropical popsicle</li>
+            <li style="color: maroon;">ben and jerry's ice cream</li>
+          </ol>
+
+          <img class="pictures" src="./frozen-treats.jpeg" alt="frozen ice creams">
       </article>
     </section>
   </body>
